@@ -8,3 +8,12 @@ spring:
     name: @artifactId@
   banner:
     location: banner.txt
+
+config:
+  webhooks:
+    - id: zhipuai
+      type: ZHIPU_AI
+      notify:
+        ding-talk:
+          access-token: "93axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx83c"
+          sign-key: "SECcd6xxxxxxxxxxxxxxxxxxxxxxx67c82fe811656bdd0"

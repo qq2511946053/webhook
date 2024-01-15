@@ -1,0 +1,10 @@
+server:
+  port: 8787
+  servlet:
+    context-path: /webhook
+
+spring:
+  application:
+    name: @artifactId@
+  banner:
+    location: banner.txt
